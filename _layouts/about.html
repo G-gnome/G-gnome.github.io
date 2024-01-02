@@ -23,7 +23,7 @@ layout: default
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
               {% endif %}
 
-              {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.6}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+              {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 1.2}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
               
               {% include figure.html
                 path = profile_image_path
