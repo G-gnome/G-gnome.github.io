@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - G-gnome
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - G-gnome/Naganishia_comp_genomics_project
+  - G-gnome/download_assemblies
+
