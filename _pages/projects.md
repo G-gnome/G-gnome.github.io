@@ -5,7 +5,7 @@ permalink: /projects/
 description: These are a couple of projects I'm currently working on for my PhD.
 nav: true
 nav_order: 3
-display_categories:
+display_categories: [PhD projects]
 horizontal: true
 ---
 

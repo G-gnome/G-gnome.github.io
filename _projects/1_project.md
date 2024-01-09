@@ -4,7 +4,7 @@ title: Genomics of extremophilic fungi
 description: This summarizes one aim of my PhD.  
 img: assets/img/7.jpg
 importance: 2
-category: work
+category: PhD projects
 related_publications: einstein1956investigations, einstein1950meaning
 editor_options: 
   markdown: 
