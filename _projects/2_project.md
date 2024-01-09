@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Moss mycobiome
+title: Moss
 description: Surveying the fungi associated with mosses
 img: assets/img/moss.jpg
 importance: 1
