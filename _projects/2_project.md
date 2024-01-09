@@ -2,10 +2,10 @@
 layout: page
 title: Moss mycobiome
 description: Surveying the fungi associated with mosses
-img: assets/img/mossfungus.jpg
-importance: 2
+img: assets/img/moss.jpg
+importance: 1
 category: PhD projects
-giscus_comments: true
+giscus_comments: false
 ---
 
 Mosses are bryophytes: some of the most ancient terrestrial plants and amoung the first to colonize land. They are very hardy, and can survive in extreme environments including the Mojave Desert and Antarctica. The microbes that facilitate their survival in extreme environments are unknown. Understanding these associations may reveal ancient symbioses which mediated the terrestrialization of aquatic plants and the terraforming processes which eventually permited human life. 
