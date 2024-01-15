@@ -2,7 +2,7 @@
 layout: page
 title: Moss
 description: Surveying the fungi associated with mosses
-img: assets/img/mossfix.png
+img: assets/img/moss.jpg
 importance: 1
 category: PhD projects
 giscus_comments: false
