@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Genomics
-description: Extremophilic yeast comparative and population genomics
+description: Extremophilic yeast genomics
 img: assets/img/7.jpg
 importance: 2
 category: PhD projects
