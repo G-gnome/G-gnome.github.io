@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Here are my github repositories. IF YOU ARE IN MCBL121, SEE LECTURES REPOSITORY.
+description: This page includes the github projects I would like to highlight.
 nav: true
 nav_order: 4
 ---

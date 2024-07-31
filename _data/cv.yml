@@ -14,8 +14,50 @@
       year: 2022-2026
       description:
         - Using metabarcoding and genomics approaches to characterize the ecology, distribution, and genomic features of plant symbiotic extremophilic fungi in Southern California deserts.
+        - Mentor for undergraduate students in the lab, teaching them how to culture fungi, use bioinformatics tools, analyze data.
+        - Dry lab kills developed include R, Python, Bash scripting, as well as genomic and metagenomic analyses.
+        - Wet lab skills developed include fungal culturing, DNA extraction, PCR, illumina library preperation, and nanopore sequencing.
+        - Achieved a 3.89 GPA overall in my courses.
     - title: Bachelors of Science, Biology
       institution: Fort Lewis College
       year: 2018-2022
       description:
         - Graduated Magana cum Laude
+        - Conducted research spanning molecular virology, organic chemistry, and mycology. 
+        - Developed skills in molecular cloning and PCR.
+- title: Work experience
+  type: time_table
+  contents:
+    - title: NSF REU student
+      institution: Cornell University
+      year: 2021-2021
+      description: 
+        - Identified suitable conditions for preparation of plant membrane hormone transporter NPF3 for cryo electron microscopy using lipid nanodisc reconstitution and detergent solubilization.
+        - Obtained 2D classes of detergent solubilized NPF3.
+        - Generated recombinant baculoviruses possessing three orthologs of pannexin 2.
+    - title: Research assistant
+      institution: Fort Lewis College
+      year: 2020-2021
+      description: 
+        - Helped construct a Human Cytomegalovirus (HCMV) mutant library using bacterial artificial chromosome recombineering.
+    - title: Research assistant
+      institution: Fort Lewis College
+      year: 2021-2022
+      description: 
+        - Helped construct a CRISPR knockout library of the allopolyploid Arabidopsis suecica using golden gate cloning.
+
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Microbiology TA
+      institution: University of California Riverside
+      year: 2022-2023
+      description: 
+        - Served as the discussion instructor for over 100 introductory microbiology students.
+        - Developed weekly lectures and helped administer exams. 
+    - title: Lead peer educator
+      institution: Fort Lewis College
+      year: 2019-2022
+      description: 
+        - Tutored students in all writing subjects.
+        - Delivered presentations on scientific writing to peer educators and ran meetings.
