@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Still working on generating pubs... Coming soon!!!
+description: 
 nav: true
 nav_order: 2
 ---
