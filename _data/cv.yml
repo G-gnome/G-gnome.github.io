@@ -11,13 +11,16 @@
   contents:
     - title: PhD, Plant Pathology
       institution: University of California Riverside
-      year: 2022-2026
+      year: 2022-2025
       description:
-        - Using metabarcoding and genomics approaches to characterize the ecology, distribution, and genomic features of plant symbiotic extremophilic fungi in Southern California deserts.
-        - Mentor for undergraduate students in the lab, teaching them how to culture fungi, use bioinformatics tools, analyze data.
-        - Dry lab kills developed include R, Python, Bash scripting, as well as genomic and metagenomic analyses.
-        - Wet lab skills developed include fungal culturing, DNA extraction, PCR, illumina library preperation, and nanopore sequencing.
-        - Achieved a 3.89 GPA overall in my courses.
+        - Conducting research using metabarcoding and genomics approaches to explore the ecology, distribution, and genomic traits of extremophilic fungi in Southern California desert environments.
+        - Discovered novel symbioses between ancient plants and fungi.
+        - Sequenced and assembled 
+        - Mentoring undergraduate students by teaching fungal culturing techniques and bioinformatics methods, including data analysis using custom pipelines.
+        - Advanced proficiency in R, Python, and Bash scripting.
+        - Expertise in fungal culturing, DNA extraction, PCR, Illumina library preparation, and nanopore sequencing techniques.
+        - Selected to present findings at the Annual Mycology Symposium, 2024.
+        - GPA: 3.89 overall.
     - title: Bachelors of Science, Biology
       institution: Fort Lewis College
       year: 2018-2022
