@@ -13,13 +13,13 @@
       institution: University of California Riverside
       year: 2022-2025
       description:
-        - Conducting research using metabarcoding and genomics approaches to explore the ecology, distribution, and genomic traits of extremophilic fungi in Southern California desert environments.
-        - Discovered novel symbioses between ancient plants and fungi.
-        - Sequenced and assembled 
+        - Generated genomic and metagenomic nanopore and illumina sequence data, resulting in 8 novel fungal genomes and 10,000 taxa identified through metagenomic analysis
+        - Performed comparative genomic analysis of extremophilic fungi resulting in the identification of potentially horizontally acquired genes conferring extreme resistance phenotypes.
+        - Analyzed NGS data using R, and Python, utilizing custom built pipelines resulting in three publications (in preparation)
         - Mentoring undergraduate students by teaching fungal culturing techniques and bioinformatics methods, including data analysis using custom pipelines.
-        - Advanced proficiency in R, Python, and Bash scripting.
+        - Lead developer for sequence classification software using machine learning (Python). 
         - Expertise in fungal culturing, DNA extraction, PCR, Illumina library preparation, and nanopore sequencing techniques.
-        - Selected to present findings at the Annual Mycology Symposium, 2024.
+        - Obtained first cultures of 15+ undescribed fungal species. Developed strain library of 100+ extreme adapted microbes for bioprospecting use in the National Science Foundation ExFAB Biofoundry.
         - GPA: 3.89 overall.
     - title: Bachelors of Science, Biology
       institution: Fort Lewis College
@@ -42,13 +42,8 @@
       institution: Fort Lewis College
       year: 2020-2021
       description: 
-        - Helped construct a Human Cytomegalovirus (HCMV) mutant library using bacterial artificial chromosome recombineering.
-    - title: Research assistant
-      institution: Fort Lewis College
-      year: 2021-2022
-      description: 
-        - Helped construct a CRISPR knockout library of the allopolyploid Arabidopsis suecica using golden gate cloning.
-
+        - Participated in bacterial artificial chromosome recombineering to generate a Human Cytomegalovirus (HCMV) mutant library.
+        - Used Golden Gate cloning to create CRISPR plasmids for gene knockout in Arabidopsis suecicia
 - title: Teaching
   type: time_table
   contents:
