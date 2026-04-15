@@ -1,7 +1,7 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Kian Kelly
     - name: Title
       value: Bioinformatics Scientist (NGS / Variant Calling)
