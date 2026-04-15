@@ -7,7 +7,7 @@ subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
   image: IMG_3016.PNG
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info:
 
 
