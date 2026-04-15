@@ -8,17 +8,6 @@
     - name: Focus
       value: Somatic & germline variant detection, low allele frequency modeling, NGS algorithm development
 
-- title: Summary
-  type: nested_list
-  contents:
-    - title: Bioinformatics Scientist specializing in NGS secondary analysis algorithm development for germline and somatic variant detection, with a focus on oncology applications.
-      items:
-        - Designs statistically rigorous variant calling methods for ultra-low allele frequency detection
-        - Develops production-grade bioinformatics pipelines and scalable workflows
-        - Experience benchmarking against industry tools such as GATK and Mutect2
-        - Works across computational and experimental teams to deliver clinically relevant genomic insights
-        - Additional experience in high-pressure operational environments as a volunteer firefighter
-
 - title: Experience
   type: time_table
   contents:
@@ -27,111 +16,80 @@
       institution: Watchmaker Genomics
       year: Jun 2025 – Present
       description:
-        - Designed and developed algorithms for NGS secondary analysis, including variant and biomarker detection for oncology applications
-        - Developing a somatic variant caller in Rust using trinucleotide-context error modeling and binomial hypothesis testing
-        - Improved low allele frequency variant detection performance (~AF < 0.07) through statistical error modeling approaches
-        - Optimized indel calling in germline TAPS Variant Caller (TVC), improving F1 from ~0.74 to ~0.875
-        - Integrated modules into production-grade Nextflow pipelines with CI, cloud profiles, and versioned testing
-        - Evaluated clinical relevance of variant calls using cBioPortal and functional annotation tools
-        - Collaborated across wet lab, engineering, and business teams to define product scope and requirements
+        - Designed and developed NGS secondary analysis algorithms for variant and biomarker detection in oncology applications
+        - Developing a somatic variant caller in Rust using trinucleotide error modeling and binomial hypothesis testing
+        - Improved low allele frequency variant detection performance through statistical modeling approaches
+        - Optimized indel calling in germline TAPS Variant Caller (TVC)
+        - Built and maintained production Nextflow pipelines with CI and cloud deployment
+        - Evaluated clinical relevance of variant calls using cBioPortal and annotation tools
 
-    - title: Graduate Researcher (PhD), Stajich Lab
+    - title: Graduate Researcher (PhD)
       institution: University of California, Riverside
       year: 2022 – 2025
       description:
-        - Developed computational workflows for large-scale genomic and metagenomic analysis using Python and R
-        - Designed sequencing pipelines (Nanopore + Illumina) generating fungal genome assemblies and metagenomic datasets
-        - Applied statistical and phylogenetic methods to study microbial diversity and environmental adaptation
-        - First author and co-author publications in New Phytologist, ISME Journal, and bioRxiv
-        - Built bioinformatics pipelines for genome assembly, annotation, and microbial community analysis
+        - Performed large-scale genomic and metagenomic analysis using Python and R
+        - Developed sequencing pipelines (Nanopore + Illumina)
+        - Studied microbial ecology and environmental adaptation
+        - First author and co-author publications in New Phytologist, ISME Journal, bioRxiv
 
     - title: Undergraduate Research Fellow
-      institution: Cornell University (Kawate Lab)
+      institution: Cornell University
       year: 2021
       description:
-        - Generated cryo-EM data for plant membrane protein NPF3 using lipid nanodisc and detergent solubilization approaches
-        - Produced initial 2D class reconstructions of NPF3 using cryo-EM processing pipelines
-        - Assisted in recombinant viral expression systems for membrane protein studies
+        - Generated cryo-EM data for plant membrane protein NPF3
+        - Performed 2D class reconstruction using cryo-EM pipelines
 
     - title: Research Assistant
       institution: Fort Lewis College
       year: 2020 – 2021
       description:
-        - Supported molecular biology workflows including cloning and BAC recombineering
-        - Developed CRISPR plasmid constructs for plant and viral systems
-        - Contributed to molecular virology and plant biology research projects
+        - Supported molecular biology workflows including cloning and recombineering
+        - Assisted CRISPR plasmid construction and microbial studies
 
-- title: Teaching & Mentorship
+- title: Teaching
   type: time_table
   contents:
+
     - title: Microbiology Teaching Assistant
       institution: University of California, Riverside
       year: 2022 – 2023
       description:
-        - Led discussion sections for 100+ undergraduate students in introductory microbiology
-        - Developed instructional materials and supported exam preparation
+        - Led discussion sections for 100+ students
+        - Supported instruction and exam preparation
 
     - title: Lead Peer Educator
       institution: Fort Lewis College
       year: 2019 – 2022
       description:
-        - Tutored students in scientific writing and communication
-        - Delivered workshops on academic writing and research skills
-
-    - title: NSF REU Mentor
-      institution: Various
-      year: 2023
-      description:
-        - Mentored undergraduate researchers in microbiology and bioinformatics workflows
+        - Tutored scientific writing and communication
+        - Delivered academic workshops
 
 - title: Skills
-  type: nested_list
+  type: list
   contents:
-    - title: Programming
-      items:
-        - Python, R, Rust, Bash
-
-    - title: Bioinformatics
-      items:
-        - Variant calling (germline & somatic)
-        - NGS secondary analysis (Illumina, Nanopore)
-        - Genome assembly and annotation
-        - Metagenomics and phylogenetics
-        - Methylation analysis
-
-    - title: Methods
-      items:
-        - Trinucleotide error modeling
-        - Binomial hypothesis testing
-        - F1 / precision-recall benchmarking
-        - Hidden Markov models
-        - Machine learning for sequence classification
-
-    - title: Tools
-      items:
-        - GATK / HaplotypeCaller
-        - Mutect2
-        - Nextflow
-        - GitHub Actions
-        - HPC / cloud computing
+    - Python, R, Rust, Bash
+    - Variant calling (germline & somatic)
+    - NGS analysis (Illumina, Nanopore)
+    - Genome assembly and annotation
+    - Metagenomics and phylogenetics
+    - Trinucleotide error modeling
+    - Binomial hypothesis testing
+    - F1 / precision-recall benchmarking
+    - GATK, Mutect2, Nextflow, GitHub Actions, HPC
 
 - title: Publications
-  type: nested_list
+  type: list
   contents:
-    - title: First-author and co-author publications in ISME Journal, New Phytologist, and bioRxiv
-      items:
-        - Microbial ecology and fungal genomics under environmental stress
-        - Biocrust fungal community structure and aridity response
+    - First-author and co-author publications in ISME Journal, New Phytologist, and bioRxiv focusing on fungal genomics and microbial ecology
 
 - title: Honors & Activities
   type: nested_list
   contents:
-    - title: Fellowships & Awards
+    - title: Fellowships
       items:
-        - NSF ExFAB Biofoundry Research Fellow
+        - NSF ExFAB Biofoundry Fellow
         - Chancellor’s Distinguished Fellow (UC Riverside)
-        - GAANN Fellow (UC Riverside)
 
-    - title: Field Experience
+    - title: Field Work
       items:
         - Volunteer Firefighter & First Responder (Indian Peaks Fire & Rescue)
