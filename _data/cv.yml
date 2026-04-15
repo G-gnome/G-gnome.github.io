@@ -46,6 +46,38 @@
         - Supported molecular biology workflows including cloning and recombineering
         - Assisted CRISPR plasmid construction and microbial studies
 
+- title: Publications
+  type: list
+  contents:
+    - First-author and co-author publications in ISME Journal, New Phytologist, and bioRxiv focusing on fungal genomics and microbial ecology
+
+- title: Selected Tools
+  type: nested_list
+  contents:
+
+    - title: TAPS+ Variant Caller (TVC)
+      items:
+        - Germline variant caller designed for TAPS+ sequencing data
+        - CpG-aware, read-oriented model that reduces methylation-induced false positives
+        - Uses binomial genotype inference over allele counts with explicit error modeling
+        - Incorporates CpG context from both reference genome and read-level signals
+        - Developed within Watchmaker Genomics
+        - Optimized indel calling performance in Rust implementation without compromising runtime
+
+    - title: Somatic Variant Caller (in development, not released)
+      items:
+        - Ultra-low allele frequency somatic variant caller implemented in Rust
+        - Based on trinucleotide-context error modeling and binomial hypothesis testing
+        - Designed for sensitive detection of rare somatic mutations in noisy sequencing data
+        - Currently in active development (not publicly released)
+
+    - title: DspikeIn
+      items:
+        - Collaborative contribution to a framework for absolute abundance microbiome profiling
+        - Enables correction of compositional bias in microbial community analysis
+        - Applied to host-associated microbiomes across vertebrate systems
+        - Co-authored resulting publication on absolute abundance and microbial network structure
+
 - title: Teaching
   type: time_table
   contents:
@@ -76,11 +108,6 @@
     - Binomial hypothesis testing
     - F1 / precision-recall benchmarking
     - GATK, Mutect2, Nextflow, GitHub Actions, HPC
-
-- title: Publications
-  type: list
-  contents:
-    - First-author and co-author publications in ISME Journal, New Phytologist, and bioRxiv focusing on fungal genomics and microbial ecology
 
 - title: Honors & Activities
   type: nested_list
