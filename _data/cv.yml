@@ -3,59 +3,135 @@
   contents:
     - name: Full Name
       value: Kian Kelly
-    - name: Date of Birth
-      value: 7th April 2000
+    - name: Title
+      value: Bioinformatics Scientist (NGS / Variant Calling)
+    - name: Focus
+      value: Somatic & germline variant detection, low allele frequency modeling, NGS algorithm development
 
-- title: Education
+- title: Summary
+  type: nested_list
+  contents:
+    - title: Bioinformatics Scientist specializing in NGS secondary analysis algorithm development for germline and somatic variant detection, with a focus on oncology applications.
+      items:
+        - Designs statistically rigorous variant calling methods for ultra-low allele frequency detection
+        - Develops production-grade bioinformatics pipelines and scalable workflows
+        - Experience benchmarking against industry tools such as GATK and Mutect2
+        - Works across computational and experimental teams to deliver clinically relevant genomic insights
+        - Additional experience in high-pressure operational environments as a volunteer firefighter
+
+- title: Experience
   type: time_table
   contents:
-    - title: PhD, Plant Pathology
-      institution: University of California Riverside
-      year: 2022-2025
+
+    - title: Bioinformatics Scientist
+      institution: Watchmaker Genomics
+      year: Jun 2025 – Present
       description:
-        - Generated genomic and metagenomic nanopore and illumina sequence data, resulting in 8 novel fungal genomes and 10,000 taxa identified through metagenomic analysis
-        - Performed comparative genomic analysis of extremophilic fungi resulting in the identification of potentially horizontally acquired genes conferring extreme resistance phenotypes.
-        - Analyzed NGS data using R, and Python, utilizing custom built pipelines resulting in three publications (in preparation)
-        - Mentoring undergraduate students by teaching fungal culturing techniques and bioinformatics methods, including data analysis using custom pipelines.
-        - Lead developer for sequence classification software using machine learning (Python). 
-        - Expertise in fungal culturing, DNA extraction, PCR, Illumina library preparation, and nanopore sequencing techniques.
-        - Obtained first cultures of 15+ undescribed fungal species. Developed strain library of 100+ extreme adapted microbes for bioprospecting use in the National Science Foundation ExFAB Biofoundry.
-        - Achieved a 3.89 overall GPA.
-    - title: Bachelors of Science, Biology
-      institution: Fort Lewis College
-      year: 2018-2022
+        - Designed and developed algorithms for NGS secondary analysis, including variant and biomarker detection for oncology applications
+        - Developing a somatic variant caller in Rust using trinucleotide-context error modeling and binomial hypothesis testing
+        - Improved low allele frequency variant detection performance (~AF < 0.07) through statistical error modeling approaches
+        - Optimized indel calling in germline TAPS Variant Caller (TVC), improving F1 from ~0.74 to ~0.875
+        - Integrated modules into production-grade Nextflow pipelines with CI, cloud profiles, and versioned testing
+        - Evaluated clinical relevance of variant calls using cBioPortal and functional annotation tools
+        - Collaborated across wet lab, engineering, and business teams to define product scope and requirements
+
+    - title: Graduate Researcher (PhD), Stajich Lab
+      institution: University of California, Riverside
+      year: 2022 – 2025
       description:
-        - Graduated Magana cum Laude
-        - Conducted research spanning molecular virology, organic chemistry, and mycology. 
-        - Developed skills in molecular cloning and PCR.
-- title: Work experience
+        - Developed computational workflows for large-scale genomic and metagenomic analysis using Python and R
+        - Designed sequencing pipelines (Nanopore + Illumina) generating fungal genome assemblies and metagenomic datasets
+        - Applied statistical and phylogenetic methods to study microbial diversity and environmental adaptation
+        - First author and co-author publications in New Phytologist, ISME Journal, and bioRxiv
+        - Built bioinformatics pipelines for genome assembly, annotation, and microbial community analysis
+
+    - title: Undergraduate Research Fellow
+      institution: Cornell University (Kawate Lab)
+      year: 2021
+      description:
+        - Generated cryo-EM data for plant membrane protein NPF3 using lipid nanodisc and detergent solubilization approaches
+        - Produced initial 2D class reconstructions of NPF3 using cryo-EM processing pipelines
+        - Assisted in recombinant viral expression systems for membrane protein studies
+
+    - title: Research Assistant
+      institution: Fort Lewis College
+      year: 2020 – 2021
+      description:
+        - Supported molecular biology workflows including cloning and BAC recombineering
+        - Developed CRISPR plasmid constructs for plant and viral systems
+        - Contributed to molecular virology and plant biology research projects
+
+- title: Teaching & Mentorship
   type: time_table
   contents:
-    - title: NSF REU student
-      institution: Cornell University
-      year: 2021-2021
-      description: 
-        - Identified suitable conditions for preparation of plant membrane hormone transporter NPF3 for cryo electron microscopy using lipid nanodisc reconstitution and detergent solubilization.
-        - Obtained 2D classes of detergent solubilized NPF3.
-        - Generated recombinant baculoviruses possessing three orthologs of pannexin 2.
-    - title: Research assistant
+    - title: Microbiology Teaching Assistant
+      institution: University of California, Riverside
+      year: 2022 – 2023
+      description:
+        - Led discussion sections for 100+ undergraduate students in introductory microbiology
+        - Developed instructional materials and supported exam preparation
+
+    - title: Lead Peer Educator
       institution: Fort Lewis College
-      year: 2020-2021
-      description: 
-        - Participated in bacterial artificial chromosome recombineering to generate a Human Cytomegalovirus (HCMV) mutant library.
-        - Used Golden Gate cloning to create CRISPR plasmids for gene knockout in Arabidopsis suecicia
-- title: Teaching
-  type: time_table
+      year: 2019 – 2022
+      description:
+        - Tutored students in scientific writing and communication
+        - Delivered workshops on academic writing and research skills
+
+    - title: NSF REU Mentor
+      institution: Various
+      year: 2023
+      description:
+        - Mentored undergraduate researchers in microbiology and bioinformatics workflows
+
+- title: Skills
+  type: nested_list
   contents:
-    - title: Microbiology TA
-      institution: University of California Riverside
-      year: 2022-2023
-      description: 
-        - Served as the discussion instructor for over 100 introductory microbiology students.
-        - Developed weekly lectures and helped administer exams. 
-    - title: Lead peer educator
-      institution: Fort Lewis College
-      year: 2019-2022
-      description: 
-        - Tutored students in all writing subjects.
-        - Delivered presentations on scientific writing to peer educators and ran meetings.
+    - title: Programming
+      items:
+        - Python, R, Rust, Bash
+
+    - title: Bioinformatics
+      items:
+        - Variant calling (germline & somatic)
+        - NGS secondary analysis (Illumina, Nanopore)
+        - Genome assembly and annotation
+        - Metagenomics and phylogenetics
+        - Methylation analysis
+
+    - title: Methods
+      items:
+        - Trinucleotide error modeling
+        - Binomial hypothesis testing
+        - F1 / precision-recall benchmarking
+        - Hidden Markov models
+        - Machine learning for sequence classification
+
+    - title: Tools
+      items:
+        - GATK / HaplotypeCaller
+        - Mutect2
+        - Nextflow
+        - GitHub Actions
+        - HPC / cloud computing
+
+- title: Publications
+  type: nested_list
+  contents:
+    - title: First-author and co-author publications in ISME Journal, New Phytologist, and bioRxiv
+      items:
+        - Microbial ecology and fungal genomics under environmental stress
+        - Biocrust fungal community structure and aridity response
+
+- title: Honors & Activities
+  type: nested_list
+  contents:
+    - title: Fellowships & Awards
+      items:
+        - NSF ExFAB Biofoundry Research Fellow
+        - Chancellor’s Distinguished Fellow (UC Riverside)
+        - GAANN Fellow (UC Riverside)
+
+    - title: Field Experience
+      items:
+        - Volunteer Firefighter & First Responder (Indian Peaks Fire & Rescue)
