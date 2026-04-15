@@ -63,6 +63,7 @@
         - Incorporates CpG context from both reference genome and read-level signals
         - Developed within Watchmaker Genomics
         - Optimized indel calling performance in Rust implementation without compromising runtime
+        - [Github](https://github.com/watchmaker-genomics/TVC)
 
     - title: Somatic Variant Caller (in development, not released)
       items:
@@ -77,6 +78,7 @@
         - Enables correction of compositional bias in microbial community analysis
         - Applied to host-associated microbiomes across vertebrate systems
         - Co-authored resulting publication on absolute abundance and microbial network structure
+        - [Github](https://github.com/mghotbi/DspikeIn)
 
 - title: Teaching
   type: time_table
