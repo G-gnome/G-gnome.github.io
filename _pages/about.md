@@ -6,7 +6,7 @@ subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: 1735609466252.jpeg
+  image: IMG_3016.PNG
   image_circular: true # crops the image to make it circular
   more_info:
 
@@ -16,8 +16,12 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi, I'm Kian. I earned my BS in Biology in 2022 from Fort Lewis College in Durango, Colorado. During my time there, I worked on various projects in synthetic organic chemistry, ecology, and molecular virology. I also participated in the [National Science Foundation REU program at Cornell Unviersity](https://cals.cornell.edu/molecular-biology-genetics/academics/undergraduate/summer-research-experience-undergraduates-reu-program), where I obtained the first cryo-electron micrographs of the plant membrane protein NPF3. These experiences allowed me to develop skills in molecular cloning, membrane protein expression and purification, and bacterial artificial chromosome recombineering.
+Hi, I’m Kian. I am a Bioinformatics Scientist specializing in the development of novel NGS secondary analysis algorithms for [germline](https://github.com/watchmaker-genomics/TVC) and somatic variant detection, with a focus on oncology applications. I design statistically rigorous tools for ultra-low allele frequency variant detection and build production-grade pipelines that translate research algorithms into clinically relevant tools.
 
-In 2023, I joined the [Jason Stajich lab](https://lab.stajich.org/members/kian-kelly.html) at the University of California, Riverside, as a Plant Pathology PhD student. My research focuses on understanding the ecology of biological soil crust fungi. My work has illuminated the effects of climate change on dryland microbial diversity, as well as the roles of fungi in biocrusts. I am proficient in R, Python, Bash scripting, as well as genomic and metagenomic analyses.
+In my current role, I develop and contribute to variant calling algorithms in Rust, including a somatic caller built around a trinucleotide error model and binomial hypothesis testing framework, achieving substantial improvements in performance at low allele frequencies. I also contribute to large-scale, production Nextflow pipelines and benchmark against industry-standard tools such as GATK and Mutect2.
 
-Outside the lab, I am an avid nature enthusiast, spending much of my free time hiking and reading. My favorite authors include Fyodor Dostoevsky, Jack London, and James Baldwin. My career interests lie primarily in bioinformatics analysis and engineering. If you think I would be a good fit for your organization, please contact me using the link below. Cheers!
+I completed my PhD at the [University of California, Riverside](https://lab.stajich.org/members/kian-kelly.html), where I performed large-scale genomic and metagenomic analyses in Python and R, developing computational workflows and statistical approaches for NGS data. My work resulted in multiple publications and focused on understanding microbial diversity through high-throughput sequencing in journals including ISMEJ and New Phytologist (first author).
+
+I earned my BS in Biology from Fort Lewis College and participated in an NSF REU at Cornell University, where I obtained the first cryo-electron micrographs of the plant membrane protein NPF3.
+
+Outside of my scientific work, I serve as a [volunteer firefighter and first responder](https://www.facebook.com/p/Indian-Peaks-Fire-Protection-District-61562858152198/), and spend much of my free time hiking, reading, and building a tiny cabin in the mountains. My career interests lie in bioinformatics engineering and algorithm development for genomic technologies.
