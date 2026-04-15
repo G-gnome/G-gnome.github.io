@@ -14,7 +14,7 @@
 
     - title: Bioinformatics Scientist
       institution: Watchmaker Genomics
-      year: Jun 2025 – Present
+      year: Jun 2025 – Now
       description:
         - Designed and developed NGS secondary analysis algorithms for variant and biomarker detection in oncology applications
         - Developing a somatic variant caller in Rust using trinucleotide error modeling and binomial hypothesis testing
